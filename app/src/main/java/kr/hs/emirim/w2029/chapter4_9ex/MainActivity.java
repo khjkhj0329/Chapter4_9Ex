@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
+        @Override
         public void onClick(View v) {
             angle += 10;
             imgv.setRotation(angle);
